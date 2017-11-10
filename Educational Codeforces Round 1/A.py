@@ -13,7 +13,4 @@ def smartSum(n):
 t = input()
 for i in range(int(t)):
     n = input()
-    if int(n) == 1000000000:
-        print(499999998352516354)
-    else:
-        print(smartSum(int(n)))
+    print(smartSum(int(n)))
